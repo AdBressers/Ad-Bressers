@@ -1,8 +1,7 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-bs-theme="dark">
 
 <head>
-
     <meta charset="UTF-8">
 
     <meta
@@ -10,33 +9,41 @@
         content="width=device-width, initial-scale=1"
     >
 
-    <title>Projects — Ad Bressers</title>
+    <title>Ad Bressers Portfolio</title>
 
     <meta
         name="description"
-        content="Explore the game development and programming projects of Ad Bressers."
+        content="Explore the portfolio of Ad Bressers, a Indie Game Developer & Gameplay / System Programmer."
     >
 
     <!-- Bootstrap 5 -->
     <link
-        href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" 
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" 
         rel="stylesheet" 
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" 
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" 
         crossorigin="anonymous"
     >
+
+    <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous">
+    </script>   
 </head>
 
-<body class="bg-secondary">
-<!-- Navigation -->
-     <header class="navbar navbar-expand-lg sticky-top bg-dark border-bottom border-danger">
-        <nav class="container-xxl" data-bs-theme="dark">
-            <a class="navbar-brand p-0 me-0 me-lg-2 text-danger" aria-label="Ad Bressers" href="index.html">Ad Bressers</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+<body style="background-color: #343638; padding-top: 75px; font-family: 'Segoe UI', sans-serif;">
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg fixed-top bg-dark border-bottom border-danger">
+        <div class="container-xxl">
+            
+            <a class="navbar-brand p-0 me-0 me-lg-2 text-danger" aria-label="Ad Bressers" href="index.html">Ad Bressers <br> Game Programmer</a>
+            <button class="navbar-toggler collapsed navbar-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarToggler">
-                <ul class="navbar-nav p-2 ms-4 me-auto mb-lg-auto">
-                    <li class="nav-item col-6 col-lg-auto">
+
+            <div class="collapse navbar-collapse" id="navbarToggle">
+                <ul class="navbar-nav ps-3 me-auto">
+                    <li class="nav-item">
                         <a class="nav-link link-danger" href="projects.html">Projects</a>
                     </li>
                     <li class="nav-item">
@@ -46,24 +53,25 @@
                         <a class="nav-link link-danger" href="#">Disabled</a>
                     </li>
                 </ul>
-                <ul class="navbar-nav flex-row flex-wrap ms-md-auto">
-                    <li class="nav-item col-6 col-lg-auto">
-                        <a class="nav-link link-secondary" href="#">
-                            <img src="Assets/Images/jenkins.png" alt="GitLogo" width="32" height="32" class="d-inline-block align-text-top">
+
+                <ul class="navbar-nav ps-3 flex-row ms-auto gap-2">
+                    <li class="nav-item">
+                        <a class="btn btn-outline-danger p-1" href="#">
+                        <img src="Assets/Images/jenkins.png" alt="GitLogo" width="50" height="50">
                         </a>
                     </li>
-                    <li class="nav-item col-6 col-lg-auto">
-                        <a class="nav-link link-secondary" href="#">
-                            <img src="Assets/Images/jenkins.png" alt="GitLogo" width="32" height="32" class="d-inline-block align-text-top">
+                    <li class="nav-item">
+                        <a class="btn btn-outline-danger p-1" href="#">
+                        <img src="Assets/Images/jenkins.png" alt="GitLogo" width="50" height="50">
                         </a>
                     </li>
-                    <li class="nav-item col-6 col-lg-auto">
-                        <a class="nav-link link-secondary" href="#">
-                            <img src="Assets/Images/jenkins.png" alt="GitLogo" width="32" height="32" class="d-inline-block align-text-top">
+                    <li class="nav-item">
+                        <a class="btn btn-outline-danger p-1" href="#">
+                        <img src="Assets/Images/jenkins.png" alt="GitLogo" width="50" height="50">
                         </a>
                     </li>
                 </ul>
             </div>
-        </nav>
-    </header>
+        </div>
+    </nav>
 </body>
