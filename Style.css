@@ -1,0 +1,18 @@
+.highlight-card {
+    transition: box-shadow 0.3s ease;
+}
+
+.highlight-card:hover {
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.5),
+                0 0 20px rgba(220, 53, 69, 0.2) !important;
+}
+
+.project-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.5),
+                0 0 20px rgba(220, 53, 69, 0.2) !important;
+}
